@@ -1,0 +1,12 @@
+{
+     "name": "live-server",
+     "version": "1.0.0",
+     "description": "Ranek Laptop Ramasalah",
+     "main": "index.js",
+     "scripts": {
+          "dev": "live-server"
+     },
+     "keywords": [],
+     "author": "Fiqking Ahmed",
+     "license": "ISC"
+}

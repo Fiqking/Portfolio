@@ -1,0 +1,102 @@
+/* Note */
+/* This 480*/
+@import
+url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins&family=Dancing+Script&display=swap");
+:root {
+  /* Color & Font Size */
+  --dark: #000;
+  --light: #fff;
+  --glass: rgba(255, 255, 255, 0.3);
+  --neon: #0042ff;
+  --rose: #e11d48;
+  --transparent: transparent;
+  --font-lighter: 400;
+  --font-light: 500;
+  --font-bold: 600;
+  --font-bolder: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  font-family: "Indie Flower", cursive;
+  background-color: var(--light);
+  color: var(--dark);
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+img,
+video {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+strong {
+  color: var(--rose);
+}
+/* Reusable Class */
+.section {
+  padding-top: 5rem;
+}
+/* Breakpoints */
+
+/* Hp Small */
+@media (min-width: 480px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* Hp Poco X3 */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+/* Animation */
+@keyframes rgb-light {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+/* Reusable Class */
+.title {
+  font-size: 2.5rem;
+  font-weight: var(--font-bold);
+}
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: var(--lighter);
+}
+.desc {
+  font-size: 1.4rem;
+  font-weight: var(--lighter);
+}

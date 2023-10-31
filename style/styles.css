@@ -1,0 +1,8 @@
+/* Dekstop First at 1024px */
+@import "ruleset.css";
+@import "components/header.css";
+@import "components/hero.css";
+@import "components/about.css";
+@import "components/experience.css";
+@import "components/contact.css";
+@import "components/footer.css";
